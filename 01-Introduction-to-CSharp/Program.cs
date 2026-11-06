@@ -9,13 +9,14 @@ Console.WriteLine("Hellow; world!");
 Console.Write("Enter your name : ");
 string name = Console.ReadLine()!;
 
-Console.WriteLine("Welcome" + name);
+Console.WriteLine($"Welcome {name}");
+Console.WriteLine("This project calculates two numbers for you.");
 
-///this is a Calculator
+//this is a Calculator
 Console.Write("Enter first number: ");
-int number1 = int.parse(Console.ReadLine()!);
+int number1 = int.Parse(Console.ReadLine()!);
 Console.Write("Enter second number: ");
-int number2 = int.parse(Console.ReadLine()!);
-///result of number 1 + number 2 
+int number2 = int.Parse(Console.ReadLine()!);
+//result of number 1 + number 2 
 int result = number1 + number2;
 Console.WriteLine("Result:" + result);
