@@ -1,0 +1,16 @@
+## .NET build output
+**/bin/
+**/obj/
+**/out/
+
+## IDEs and editors
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+
+## OS files
+.DS_Store
+Thumbs.db
