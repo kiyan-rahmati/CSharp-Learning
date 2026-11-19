@@ -1,58 +1,92 @@
-// Lesson 01: Introduction to Programming and C#
+// ==========================================
+// Lesson 01: C# Fundamentals
+// ==========================================
 
-Console.WriteLine("CSharp Learning Journey - Lesson 01");
-Console.WriteLine("Introduction to Programming and C#");
+// Introduction
+Console.WriteLine("CSharp Learning Journey");
+Console.WriteLine("Lesson 01 - C# Fundamentals");
 
-Console.WriteLine("Hello, World!");
+// ------------------------------------------
+// 1. Output
+// ------------------------------------------
 
-Console.Write("Enter your name: ");
-string name = Console.ReadLine()!;
+// Console.WriteLine prints text and moves to a new line.
+// Console.Write prints text without moving to a new line.
 
-Console.WriteLine($"Welcome {name}");
+// Console.WriteLine("Hello, World!");
+// Console.Write("Hello ");
+// Console.Write("C#");
 
-Console.WriteLine("This project calculates two numbers for you.");
+// ------------------------------------------
+// 2. Variables
+// ------------------------------------------
 
-Console.Write("Enter first number: ");
-int number1 = int.Parse(Console.ReadLine()!);
+// Variables store data in memory.
 
-Console.Write("Enter second number: ");
-int number2 = int.Parse(Console.ReadLine()!);
+// string name = "Kiyan";
+// int age = 19;
+// double height = 1.78;
+// bool isProgrammer = true;
 
-Console.WriteLine();
-Console.WriteLine("Choose an operation:");
+// Console.WriteLine(name);
+// Console.WriteLine(age);
+// Console.WriteLine(height);
+// Console.WriteLine(isProgrammer);
 
-Console.WriteLine(">>> Addition (press +)");
-Console.WriteLine(">>> Subtraction (press -)");
-Console.WriteLine(">>> Multiplication (press *)");
-Console.WriteLine(">>> Division (press /)");
+// ------------------------------------------
+// 3. User Input
+// ------------------------------------------
 
-Console.Write("Enter your operation: ");
-string choose = Console.ReadLine()!;
+// Console.ReadLine() reads input from the user.
 
-if (choose == "+")
-{
-    int result = number1 + number2;
-    Console.WriteLine($"Result: {result}");
-}
-else if (choose == "-")
-{
-    int result = number1 - number2;
-    Console.WriteLine($"Result: {result}");
-}
-else if (choose == "*")
-{
-    int result = number1 * number2;
-    Console.WriteLine($"Result: {result}");
-}
-else if (choose == "/")
-{
-    if(number2 != 0)
-    {
-        double result = (double)number1 / number2;
-        Console.WriteLine($"Result: {result}");
-    }
-    else
-    {
-        Console.WriteLine("Invalid operation!");
-    }
-} 
+// Console.Write("Enter your name: ");
+// string name = Console.ReadLine() ?? "";
+
+// Console.WriteLine($"Hello, {name}!");
+
+// ------------------------------------------
+// 4. Basic Calculator
+// ------------------------------------------
+
+// int number1 = 10;
+// int number2 = 5;
+
+// Console.WriteLine(number1 + number2);
+// Console.WriteLine(number1 - number2);
+// Console.WriteLine(number1 * number2);
+// Console.WriteLine(number1 / number2);
+
+// ------------------------------------------
+// 5. String Interpolation
+// ------------------------------------------
+
+// string firstName = "Kiyan";
+// int age = 19;
+
+// Console.WriteLine($"My name is {firstName} and I am {age} years old.");
+
+// ------------------------------------------
+// 6. Simple User Interaction
+// ------------------------------------------
+
+// Console.Write("Enter your name: ");
+// string userName = Console.ReadLine() ?? "";
+
+// Console.Write("Enter your age: ");
+// int userAge = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine($"Hello {userName}!");
+// Console.WriteLine($"You are {userAge} years old.");
+
+// ==========================================
+// Lesson 01 Summary
+// ==========================================
+
+// - Console.WriteLine()
+// - Console.Write()
+// - Variables
+// - Basic Data Types
+// - User Input
+// - Convert.ToInt32()
+// - Basic Arithmetic Operations
+// - String Interpolation
