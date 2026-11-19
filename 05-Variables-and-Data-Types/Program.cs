@@ -255,7 +255,7 @@ for (int i = 1; i <= 5; i++)
 //
 // The while loop decreases i until it reaches 0.
 
-//*
+/*
 int i = 5;
 int f = 1;
 
