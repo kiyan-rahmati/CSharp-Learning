@@ -35,3 +35,10 @@ for(int i=7; i>=3; i--)
 }
  */
 
+int number =1;
+while (number <=5)
+{
+    Console.WriteLine(number);
+    number++;
+}
+
