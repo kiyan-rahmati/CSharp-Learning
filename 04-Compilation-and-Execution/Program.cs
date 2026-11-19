@@ -52,12 +52,12 @@ Console.WriteLine(result);
 /*
 int age = 18;
 
-Console.WriteLine(age == 18);  // True
-Console.WriteLine(age != 18);  // False
-Console.WriteLine(age > 10);    // True
-Console.WriteLine(age < 20);    // True
-Console.WriteLine(age >= 18);  // True
-Console.WriteLine(age <= 18);  // True
+Console.WriteLine(age == 18); // True
+Console.WriteLine(age != 18); // False
+Console.WriteLine(age > 10);  // True
+Console.WriteLine(age < 20);  // True
+Console.WriteLine(age >= 18); // True
+Console.WriteLine(age <= 18); // True
 */
 
 
@@ -73,7 +73,7 @@ Console.WriteLine(age <= 18);  // True
 /*
 int age = 18;
 
-if (age >= 20)
+if (age >= 18)
 {
     Console.WriteLine("You are an adult.");
 }
@@ -278,3 +278,6 @@ else
 // based on different situations.
 //
 // ============================================================
+
+Console.WriteLine("CSharp Learning Journey - Lesson 04");
+Console.WriteLine("Conditions & Decision Making");

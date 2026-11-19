@@ -1,6 +1,6 @@
 // ============================================================
 // Lesson 05: Loops & Iteration
-// C# Learning Journey
+// CSharp Learning Journey
 // ============================================================
 //
 // In this lesson, we learn how to repeat instructions using loops.
@@ -353,3 +353,6 @@ In this lesson, we learned:
 
 ==============================================================
 */
+
+Console.WriteLine("CSharp Learning Journey - Lesson 05");
+Console.WriteLine("Loops & Iteration");
