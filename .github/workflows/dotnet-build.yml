@@ -1,0 +1,29 @@
+name: CSharp Learning CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build All Lessons
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build all lessons
+        shell: bash
+        run: |
+          find . -name "*.csproj" -print0 | while IFS= read -r -d '' project; do
+            echo "Building: $project"
+            dotnet build "$project" --configuration Release || exit 1
+          done
