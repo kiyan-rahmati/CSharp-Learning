@@ -1,54 +1,47 @@
-# CSharp Learning Journey
+# C# Learning Journey — 36-Day Course
 
-A 36-lesson, English-language learning curriculum covering C# and .NET from fundamentals through algorithms, object-oriented programming, modern language features, architecture, testing, and a final project.
+A structured C# study repository. Each lesson contains theory, eight examples, exercises, a challenge, a solution guide, debugging notes, output observations, references, and a runnable console project.
 
-## Course structure
+## Study routine
+1. Read Theory.
+2. Type Examples and predict their output.
+3. Run `dotnet run` from the lesson directory.
+4. Complete Practice before looking at Solutions.
+5. Debug and test edge cases.
 
-- `01`–`10`: language fundamentals and program flow
-- `11`–`20`: loops, methods, arrays, algorithms, complexity, searching, sorting, and data structures
-- `21`–`30`: object-oriented programming and modern C# features
-- `31`–`36`: persistence, async, clean design, architecture, testing, and project work
-
-## Every lesson includes
-
-- `Notes.md`: explanations, key ideas, example guidance, mistakes, and practice
-- `Program.cs`: a runnable demonstration
-- `Summary.md`: a short recap
-- `Practice.md`: an independent task and checklist
-- `Examples/README.md`: how to experiment with the code
-
-## Study workflow
-
-1. Read `Notes.md` and write down questions.
-2. Read `Program.cs` without running it; predict its output.
-3. Run `dotnet run` from the lesson folder.
-4. Re-type the example, then modify it.
-5. Complete `Practice.md` without copying a solution.
-6. Review `Summary.md` and mark the lesson complete in `PROGRESS.md`.
-
-## Run a lesson
-
-```bash
-cd 06-Type-Conversion
-dotnet run
-```
-
-Build an individual lesson:
-
-```bash
-dotnet build
-```
-
-## Requirements
-
-- .NET 10 SDK
-- Terminal or VS Code
-- Recommended: Git
-
-## Official references
-
-- [C# documentation](https://learn.microsoft.com/dotnet/csharp/)
-- [.NET documentation](https://learn.microsoft.com/dotnet/)
-- [C# language reference](https://learn.microsoft.com/dotnet/csharp/language-reference/)
-
-> This repository is a learning curriculum. Examples are intentionally small and should be extended through the exercises; the final project is the place to combine the concepts into a complete application.
+- Day 01: Introduction to C# and .NET
+- Day 02: Variables and Data Types
+- Day 03: Constants and Naming
+- Day 04: Console Input and Output
+- Day 05: Basic Operators
+- Day 06: Type Conversion
+- Day 07: Operators and Expressions
+- Day 08: Strings
+- Day 09: Conditional Statements
+- Day 10: Loops
+- Day 11: Arrays
+- Day 12: Methods
+- Day 13: Scope and Parameters
+- Day 14: Debugging Fundamentals
+- Day 15: Enums and Structs
+- Day 16: Classes and Objects
+- Day 17: Encapsulation
+- Day 18: Inheritance
+- Day 19: Polymorphism
+- Day 20: Interfaces
+- Day 21: Collections: List and Dictionary
+- Day 22: Collections: Queue and Stack
+- Day 23: Generics
+- Day 24: Exception Handling
+- Day 25: File Handling
+- Day 26: LINQ Basics
+- Day 27: LINQ Advanced
+- Day 28: Nullable Types
+- Day 29: DateTime and Formatting
+- Day 30: Records and Tuples
+- Day 31: Delegates and Events
+- Day 32: Async and Await
+- Day 33: JSON Serialization
+- Day 34: Project Structure and NuGet
+- Day 35: Mini Project: Expense Tracker
+- Day 36: Final Project: Console Management App

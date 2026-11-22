@@ -1,218 +1,145 @@
-# 36-Lesson Roadmap
+# Course roadmap
 
-## 01. Introduction to C#
+## Day 01: Introduction to C# and .NET
 
-What C# is, its ecosystem, syntax conventions, and the role of a console application.
+Focus: C# language, compiler, .NET SDK/runtime, console projects, program entry point.
 
-**Practice:** Create a welcome screen that prints your name, learning goals, and three lines of formatted output.
+## Day 02: Variables and Data Types
 
-## 02. .NET Platform
+Focus: int, long, decimal, double, bool, char, string, var, type inference.
 
-Understand .NET runtime, SDK, libraries, CLI, and application types.
+## Day 03: Constants and Naming
 
-**Practice:** Create a console project, identify SDK/runtime versions, and run it.
+Focus: const, readonly, identifiers, PascalCase, camelCase, naming rules.
 
-## 03. Program Structure
+## Day 04: Console Input and Output
 
-Understand top-level statements, namespaces, using directives, and program entry.
+Focus: Console.Write, WriteLine, ReadLine, parsing, validation.
 
-**Practice:** Compare top-level code with a traditional Program.Main structure.
+## Day 05: Basic Operators
 
-## 04. Compilation and Execution
+Focus: arithmetic, comparison, logical, assignment, modulo, precedence.
 
-Learn source code, compiler, IL, runtime, JIT, and execution lifecycle.
+## Day 06: Type Conversion
 
-**Practice:** Use dotnet build and dotnet run; inspect generated bin/obj folders.
+Focus: implicit, explicit cast, Convert, Parse, TryParse, conversion safety.
 
-## 05. Variables and Data Types
+## Day 07: Operators and Expressions
 
-Declare variables and select suitable value types and reference types.
+Focus: precedence, associativity, ternary, compound assignment, expression design.
 
-**Practice:** Build a small profile containing age, height, balance, and name.
+## Day 08: Strings
 
-## 06. Type Conversion
+Focus: interpolation, immutability, search, replace, split, trim, formatting.
 
-Convert values safely using casts, Convert, Parse, and TryParse.
+## Day 09: Conditional Statements
 
-**Practice:** Read numeric text and validate it before calculating.
+Focus: if, else, switch, switch expression, pattern matching, guard clauses.
 
-## 07. Operators and Expressions
+## Day 10: Loops
 
-Use arithmetic, comparison, logical, assignment, and precedence rules.
+Focus: for, while, do-while, foreach, break, continue, nested loops.
 
-**Practice:** Create a calculator that supports four operations and handles division by zero.
+## Day 11: Arrays
 
-## 08. Input, Output and Strings
+Focus: fixed size, indexing, Length, traversal, multidimensional arrays.
 
-Read console input, format output, and manipulate strings safely.
+## Day 12: Methods
 
-**Practice:** Ask for first/last name and format a clean greeting.
+Focus: declaration, parameters, return, overload, optional and named arguments.
 
-## 09. Conditional Statements
+## Day 13: Scope and Parameters
 
-Make decisions using if, else if, else and boolean conditions.
+Focus: local scope, blocks, parameters, ref, out, optional parameters.
 
-**Practice:** Build a grade evaluator with clear boundary conditions.
+## Day 14: Debugging Fundamentals
 
-## 10. Switch and Pattern Matching
+Focus: breakpoints, step controls, watch, call stack, error diagnosis.
 
-Select behavior with switch statements, expressions, and patterns.
+## Day 15: Enums and Structs
 
-**Practice:** Build a menu-driven app using a switch expression.
+Focus: enum, named states, structs, value semantics.
 
-## 11. Loops
+## Day 16: Classes and Objects
 
-Repeat work using for, while, do-while, and foreach.
+Focus: class, object, fields, properties, constructors, methods.
 
-**Practice:** Print a multiplication table and validate user input in a loop.
+## Day 17: Encapsulation
 
-## 12. Nested Loops and Flow Control
+Focus: access modifiers, private state, properties, validation, invariants.
 
-Combine loops and manage nested iteration carefully.
+## Day 18: Inheritance
 
-**Practice:** Print a rectangle, triangle, and coordinate grid.
+Focus: base and derived classes, protected, base constructor, sealed.
 
-## 13. Methods and Functions
+## Day 19: Polymorphism
 
-Create reusable methods, parameters, return values, and local scope.
+Focus: virtual, override, abstract, runtime dispatch, substitutability.
 
-**Practice:** Refactor calculator operations into methods.
+## Day 20: Interfaces
 
-## 14. Overloading and Parameter Passing
+Focus: contracts, implementation, multiple interfaces, abstraction.
 
-Use method overloads and understand value, ref, out, and in.
+## Day 21: Collections: List and Dictionary
 
-**Practice:** Create overloaded formatting methods and a Try-style method.
+Focus: List<T>, Dictionary<TKey,TValue>, add/remove/search/lookup.
 
-## 15. Arrays
+## Day 22: Collections: Queue and Stack
 
-Store fixed-size collections and access elements by index.
+Focus: FIFO, LIFO, Enqueue, Dequeue, Push, Pop, Peek.
 
-**Practice:** Calculate average, min/max, and search a fixed list of scores.
+## Day 23: Generics
 
-## 16. Strings and Text Processing
+Focus: generic types, generic methods, type parameters, constraints.
 
-Understand immutable strings and common text-processing patterns.
+## Day 24: Exception Handling
 
-**Practice:** Normalize and analyze a sentence: count words and vowels.
+Focus: try, catch, finally, throw, exception types, validation.
 
-## 17. Algorithmic Thinking
+## Day 25: File Handling
 
-Translate a problem into inputs, outputs, constraints, and steps.
+Focus: File, Directory, paths, reading, writing, append, I/O errors.
 
-**Practice:** Write pseudocode and implement a number-guessing game.
+## Day 26: LINQ Basics
 
-## 18. Complexity and Big O
+Focus: Where, Select, OrderBy, FirstOrDefault, Count, Sum, ToList.
 
-Estimate how algorithm work grows with input size.
+## Day 27: LINQ Advanced
 
-**Practice:** Compare linear search and nested-loop pair counting.
+Focus: GroupBy, Join, SelectMany, ThenBy, Aggregate, composition.
 
-## 19. Searching and Sorting
+## Day 28: Nullable Types
 
-Implement and compare basic search and sorting algorithms.
+Focus: nullable value types, null, ??, ?., ??=, nullable reference types.
 
-**Practice:** Sort numbers and search them; binary search requires sorted input.
+## Day 29: DateTime and Formatting
 
-## 20. Stacks and Queues
+Focus: DateTime, DateTimeOffset, TimeSpan, parsing, formats.
 
-Understand LIFO/FIFO and use built-in collection types.
+## Day 30: Records and Tuples
 
-**Practice:** Validate balanced brackets using a stack; simulate a queue.
+Focus: record, record struct, tuple, value equality, with expressions.
 
-## 21. Classes and Objects
+## Day 31: Delegates and Events
 
-Model entities with classes, fields, properties, and instances.
+Focus: delegate, Action, Func, Predicate, events, subscribe/unsubscribe.
 
-**Practice:** Create Book and LibraryBook objects and print their details.
+## Day 32: Async and Await
 
-## 22. Constructors and Properties
+Focus: Task, Task<T>, async, await, cancellation, asynchronous I/O.
 
-Initialize objects consistently and expose state safely.
+## Day 33: JSON Serialization
 
-**Practice:** Create a BankAccount with validated constructor and properties.
+Focus: System.Text.Json, serialize, deserialize, options, JSON validation.
 
-## 23. Encapsulation and Abstraction
+## Day 34: Project Structure and NuGet
 
-Protect invariants and expose behavior instead of raw state.
+Focus: csproj, namespaces, NuGet packages, restore, build, separation.
 
-**Practice:** Implement a bank account that rejects invalid deposits and withdrawals.
+## Day 35: Mini Project: Expense Tracker
 
-## 24. Inheritance and Polymorphism
+Focus: expense model, input validation, categories, totals, persistence.
 
-Reuse and specialize behavior through base and derived classes.
+## Day 36: Final Project: Console Management App
 
-**Practice:** Model base Employee and specialized SalariedEmployee/HourlyEmployee.
-
-## 25. Interfaces and Abstract Classes
-
-Define contracts and shared base behavior with the right tool.
-
-**Practice:** Implement IShape and calculate areas for circle and rectangle.
-
-## 26. Exception Handling
-
-Handle exceptional conditions without hiding programming errors.
-
-**Practice:** Validate user input and handle expected errors thoughtfully.
-
-## 27. Collections and Generics
-
-Use flexible collection types and generic reusable code.
-
-**Practice:** Build an inventory dictionary with unique product IDs.
-
-## 28. Delegates and Events
-
-Represent callable behavior and publish notifications.
-
-**Practice:** Create a simple notification publisher with two subscribers.
-
-## 29. LINQ
-
-Query collections declaratively and compose transformations.
-
-**Practice:** Query a list of products by price/category and group results.
-
-## 30. Lambda Expressions
-
-Write concise anonymous functions and understand their use.
-
-**Practice:** Use lambdas to filter, transform, and sort a collection.
-
-## 31. Files and Serialization
-
-Persist data and work with text, JSON, and file paths.
-
-**Practice:** Save a list of tasks as JSON and load it on startup.
-
-## 32. Asynchronous Programming
-
-Avoid blocking while waiting for I/O using async/await.
-
-**Practice:** Simulate async work and explain why await does not mean a new thread.
-
-## 33. SOLID and Clean Code
-
-Apply maintainable design principles and readable code practices.
-
-**Practice:** Refactor a tightly coupled order processor into focused responsibilities.
-
-## 34. Dependency Injection and Architecture
-
-Separate application responsibilities and inject dependencies.
-
-**Practice:** Build a small service using an injected repository interface.
-
-## 35. Testing and Debugging
-
-Write tests and use debugger tools to locate defects.
-
-**Practice:** Test calculator edge cases and debug an intentionally faulty method.
-
-## 36. Final Project
-
-Combine course concepts into a maintainable console application.
-
-**Practice:** Build a CLI task manager with CRUD, JSON persistence, search, and tests.
-
+Focus: menu loop, models, methods, collections, validation, JSON/file storage.
