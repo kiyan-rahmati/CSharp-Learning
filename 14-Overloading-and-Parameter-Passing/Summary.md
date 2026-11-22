@@ -1,0 +1,18 @@
+# Lesson 14 Summary: Overloading and Parameter Passing
+
+## Main idea
+Use method overloads and understand value, ref, out, and in.
+
+## Remember
+- Understand the problem this feature solves.
+- Choose names that communicate intent.
+- Check assumptions and handle edge cases.
+- Prefer readable, testable code over clever code.
+
+## Key terms
+Overload resolution, ref/out/in, optional parameters
+
+## Before moving on
+- [ ] Explain the main idea in your own words.
+- [ ] Re-run and modify the lesson example.
+- [ ] Finish the practice task in `Notes.md`.
